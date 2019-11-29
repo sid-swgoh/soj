@@ -128,7 +128,7 @@ h1, h2, h3, h4 { margin: 0; padding: 0; font-weight: 600; }
 	.main .team .review .overview .leader { width: 80px; height: 80px; order: 2; }
 	.main .team .review .overview .lineup { padding: 0; order: 1; display: flex; flex-direction: column; justify-content: flex-start; align-items: flex-start; }
 	.main .team .review .overview .lineup .name { align-items: center; margin-bottom: 0; flex-direction: column; order: 2; }
-	.main .team .review .overview .lineup h3 { padding: 10px 0 0; }
+	.main .team .review .overview .lineup .name h3 { padding: 10px 0 0; }
 	.main .team .review .overview .lineup h4 { font-size: 18px; }
 	.main .team .review .overview .lineup ul { order: 1; margin-bottom: 20px; }
 	.main .team .counters { width: 100%; padding: 2em 1em; box-shadow: 0px -1px 3px rgba(0,0,0,0.1); }
