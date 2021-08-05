@@ -26,60 +26,20 @@
     </nav>
     
     <section class="main first-section">
-        <div class="container">        
-            <div class="team">
-                <div class="overview">
-                    <div class="name">
-                        <h2 class="darklead">Imperial Troopers</h2>
-                    </div>
-                    <div class="leader darkside star"><img src="../images/characters/general-veers.png"></div>
-                    <div class="lineup">
-                        <ul>
-                            <li class="darkside star"><img src="../images/characters/admiral-piett.png"></li>
-                            <li class="darkside star"><img src="../images/characters/moff-gideon.png"></li>
-                            <li class="darkside star"><img src="../images/characters/colonel-starck.png"></li>
-                            <li class="darkside"><img src="../images/characters/range-trooper.png"></li>
-                            <li class="darkside"><img src="../images/characters/death-trooper.png"></li>
-                            <li class="darkside"><img src="../images/characters/shoretrooper.png"></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="difficulty">
-                    <h4>Difficulty</h4>
-                    <ul class="scale">
-                        <li class="grade-s">S</li>
-                        <li class="grade-a">A</li>
-                        <li class="grade-b active">B</li>
-                        <li class="grade-c">C</li>
-                        <li class="grade-d">D</li>
-                    </ul>
-                </div>
-                <h4>Team Details</h4>
-                <p>Team with huge turn meter gains and relentless attacks out of turn. Very fast characters will require specific counters. Battles can get out-of-hand very quickly.</p>
-                <h4>Speed Checks</h4>
-                <ul class="speeds">
-                    <li>Moff Gideon</li>
-                    <li>Admiral Piett</li>
-                    <li>Colonal Starck</li>
-                </ul>
-                <h4>Kill Order</h4>
-                <ol class="order">
-                    <li><span>Moff Gideon</span></li>
-                    <li><span>Admiral Piett</span></li>
-                    <li><span>General Veers</span></li>
-                    <li><span>Colonal Starck</span></li>
-                    <li><span>Everyone Else</span></li>
-                </ol>
-            </div>       
+        <div class="container">
+        	<canvas id="myChart" width="400" height="400"></canvas>
         </div>
     </section>
 
+
     <!-- jQuery -->
-    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
     <!-- smoothscroll JS -->
-    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@14/dist/smooth-scroll.polyfills.min.js"></script>
-    <!-- Counter List JS -->
-    <script src="js/counterlist.js"></script>
+    <script src="//cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@14/dist/smooth-scroll.polyfills.min.js"></script>
+    <!-- Chart JS -->
+    <script src="//cdn.jsdelivr.net/npm/chart.js@3.5.0/dist/chart.min.js"></script>
+    <!-- My Charts JS -->
+    <script src="js/charts.js"></script>
     <script>
         // --- Smoothscroll ---
         var scroll_height = $('#nav').height();
