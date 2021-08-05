@@ -4,8 +4,8 @@ var myChart = new Chart(ctx, {
     data: {
         labels: ['Sid', 'Wibble', 'Bossko'],
         datasets: [{
-            label: 'Greatness',
-            data: [98, 1, 1],
+            label: 'Awesomeness',
+            data: [100, 1, 1],
             backgroundColor: [
                 'rgba(255, 99, 132, 0.2)',
                 'rgba(54, 162, 235, 0.2)',
@@ -27,6 +27,13 @@ var myChart = new Chart(ctx, {
         },
         plugins: {
             legend: {
+                labels: {
+                    font: {
+                        family: 'Quicksand'
+                    }
+                }
+            },
+            scales: {
                 labels: {
                     font: {
                         family: 'Quicksand'
