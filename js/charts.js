@@ -23,9 +23,16 @@ var myChart = new Chart(ctx, {
         scales: {
             y: {
                 beginAtZero: true,
-                font: {
-                    family: 'Quicksand'
+                grid: {
+                    borderDash: [3]
                 },
+                ticks: {
+                    font: {
+                        family: 'Quicksand'
+                    }
+                }
+            },
+            x: {
                 grid: {
                     borderDash: [3]
                 }
