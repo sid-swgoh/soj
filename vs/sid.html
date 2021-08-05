@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="image/png" href="images/favicon.ico">
+    <title>SoJ Playbook</title>
+    <!-- FontAwesome CSS -->
+    <link href="../fa/css/font-awesome.min.css" rel="stylesheet">
+    <!-- CSS -->
+    <link href="../css/styles.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:300,500,600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="nav" id="nav">
+        <div class="container">
+            <div class="logo">
+                <img src="../images/icons/jedi.svg">
+                <h1>SoJ Playbook</h1>
+            </div>
+            <div class="menubutton">
+                <span><img src="../images/icons/discord.svg"></span>
+            </div>
+        </div>
+    </nav>
+    
+    <section class="main first-section">
+        <div class="container">        
+            <div class="team">
+                <div class="overview">
+                    <div class="name">
+                        <h2 class="darklead">Imperial Troopers</h2>
+                    </div>
+                    <div class="leader darkside star"><img src="../images/characters/general-veers.png"></div>
+                    <div class="lineup">
+                        <ul>
+                            <li class="darkside star"><img src="../images/characters/admiral-piett.png"></li>
+                            <li class="darkside star"><img src="../images/characters/moff-gideon.png"></li>
+                            <li class="darkside star"><img src="../images/characters/colonel-starck.png"></li>
+                            <li class="darkside"><img src="../images/characters/range-trooper.png"></li>
+                            <li class="darkside"><img src="../images/characters/death-trooper.png"></li>
+                            <li class="darkside"><img src="../images/characters/shoretrooper.png"></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="difficulty">
+                    <h4>Difficulty</h4>
+                    <ul class="scale">
+                        <li class="grade-s">S</li>
+                        <li class="grade-a">A</li>
+                        <li class="grade-b active">B</li>
+                        <li class="grade-c">C</li>
+                        <li class="grade-d">D</li>
+                    </ul>
+                </div>
+                <h4>Team Details</h4>
+                <p>Team with huge turn meter gains and relentless attacks out of turn. Very fast characters will require specific counters. Battles can get out-of-hand very quickly.</p>
+                <h4>Speed Checks</h4>
+                <ul class="speeds">
+                    <li>Moff Gideon</li>
+                    <li>Admiral Piett</li>
+                    <li>Colonal Starck</li>
+                </ul>
+                <h4>Kill Order</h4>
+                <ol class="order">
+                    <li><span>Moff Gideon</span></li>
+                    <li><span>Admiral Piett</span></li>
+                    <li><span>General Veers</span></li>
+                    <li><span>Colonal Starck</span></li>
+                    <li><span>Everyone Else</span></li>
+                </ol>
+            </div>       
+        </div>
+    </section>
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <!-- smoothscroll JS -->
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@14/dist/smooth-scroll.polyfills.min.js"></script>
+    <!-- Counter List JS -->
+    <script src="js/counterlist.js"></script>
+    <script>
+        // --- Smoothscroll ---
+        var scroll_height = $('#nav').height();
+        var scroll = new SmoothScroll('a[href*="#"]',{
+              offset:scroll_height,
+            }
+        );
+    </script>
+    
+</body>
+</html>
