@@ -39,7 +39,7 @@ var myChart = new Chart(ctx, {
                 ticks: {
                     font: {
                         family: 'Quicksand',
-                        weight: 'bold'
+                        weight: '700'
                     }
                 }
             }
