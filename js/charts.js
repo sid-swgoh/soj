@@ -4,7 +4,7 @@ var myChart = new Chart(ctx, {
     data: {
         labels: ['Sid', 'Wibble', 'Bossko'],
         datasets: [{
-            label: '# of Votes',
+            label: 'Greatness',
             data: [98, 1, 1],
             backgroundColor: [
                 'rgba(255, 99, 132, 0.2)',
@@ -20,15 +20,18 @@ var myChart = new Chart(ctx, {
         }]
     },
     options: {
-        layout: {
-            padding: '20px',
-        },
         scales: {
-            font: {
-                family: 'Quicksand',
-            },
             y: {
                 beginAtZero: true
+            }
+        },
+        plugins: {
+            legend: {
+                labels: {
+                    font: {
+                        family: 'Quicksand'
+                    }
+                }
             }
         }
     }
