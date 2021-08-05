@@ -22,18 +22,17 @@ var myChart = new Chart(ctx, {
     options: {
         scales: {
             y: {
-                beginAtZero: true
+                beginAtZero: true,
+                font: {
+                    family: 'Quicksand'
+                },
+                grid: {
+                    borderDash: [3]
+                }
             }
         },
         plugins: {
             legend: {
-                labels: {
-                    font: {
-                        family: 'Quicksand'
-                    }
-                }
-            },
-            scales: {
                 labels: {
                     font: {
                         family: 'Quicksand'
