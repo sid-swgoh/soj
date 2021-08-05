@@ -35,6 +35,12 @@ var myChart = new Chart(ctx, {
             x: {
                 grid: {
                     borderDash: [3]
+                },
+                ticks: {
+                    font: {
+                        family: 'Quicksand',
+                        weight: 'bold'
+                    }
                 }
             }
         },
